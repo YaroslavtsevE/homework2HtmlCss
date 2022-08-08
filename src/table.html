@@ -1,11 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Мой первый сайт</title>
+    <title>Simple site</title>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-<table border="1" bgcolor="darkgrey">
+<h1 id="start">Автоматизированное тестирование: что это?</h1>
+    <p>Метод тестирования программного обеспечения, который выполняется с использованием специальных программных средств,
+        которые в свою очередь необходимы для выполнения набора тестовых примеров. Напротив, ручное тестирование выполняется человеком,
+        сидящим перед компьютером и тщательно выполняющим каждый шаг теста «руками».</p>
+<h2>Зачем нужна автоматизация?</h2>
+<div>
+    <p class="text">Это хороший способ повысить эффективность, а также увеличить охват и скорость тестирования программного обеспечения,
+        когда вам нужно повторять одни и те же тестовые сценарии.</p>
+    <div>
+        <ul class="list" type="circle">
+            <li>Ручное тестирование всех рабочих процессов, полей и негативных сценариев требует больше времени и денег (при определенных условиях).</li>
+            <li>Сложно тестировать многоязычные сайты вручную.</li>
+            <li>Не требует вмешательства человека. Запускаете и переходите к другим задачам.</li>
+            <li>Увеличивает скорость выполнения тестов.</li>
+            <li>Помогает увеличить охват тестированием.</li>
+            <li>Ручное тестирование может наскучить, и следствиями станут потеря вовлеченности и появление ошибок.</li>
+        </ul>
+    </div>
+    <hr/>
+</div>
+<h3>Проблемы</h3>
+<div>
+    <p class="text">
+        Одной из главных проблем автоматизированного тестирования является его трудоемкость:<br/>
+        несмотря на то, что оно позволяет устранить часть рутинных операций и ускорить выполнение тестов,<br/>
+        большие ресурсы могут тратиться на обновление самих тестов. Это относится к обоим видам автоматизации.<br/>
+        При рефакторинге часто бывает необходимо обновить и модульные тесты, а изменение кода тестов может занять столько же времени,<br/>
+        сколько и изменение основного кода. С другой стороны, при изменении интерфейса приложения необходимо заново переписать все тесты,<br/>
+        которые связаны с обновленными окнами,<br/>
+        что при большом количестве тестов может отнять значительные ресурсы.<br/>
+    </p>
+</div>
+<hr/>
+<div>
+    <p class="text">Для автоматизации тестирования существует большое количество приложений и инструментов</p>
+    <div>
+        <p class="text">Приложения:</p>
+        <ul class="list" type="disc">
+            <li>HP LoadRunner, HP QuickTest Professional, HP Quality Center</li>
+            <li>Segue SilkPerformer</li>
+            <li>IBM Rational FunctionalTester, IBM Rational PerformanceTester, IBM Rational TestStudio</li>
+            <li>TestComplete</li>
+        </ul>
+    </div>
+    <div>
+        <p class="text">Инструменты:</p>
+        <ul>
+            <li>JUnit — тестирование приложений для Java</li>
+            <li>TestNG — тестирование приложений для Java</li>
+            <li>NUnit — порт JUnit под .NET</li>
+            <li>Selenium — тестирование приложений HTML; поддерживает браузеры Internet Explorer,
+                Mozilla Firefox, Opera, Google Chrome, Safari.</li>
+            <li>TOSCA Testsuite — тестирование приложений HTML, .NET, Java, SAP</li>
+            <li>UniTESK — <a target="_blank" href="table.html">тестирование</a> приложений на Java, Си.</li>
+        </ul>
+        <hr/>
+        <a target="_blank" href="https://junit.org/junit5/docs/current/user-guide/"><img width="180" height="100" src="images/junit.png" alt="image"/></a>
+        <img width="150" height="100" src="images/nunit.png" alt="image"/>
+        <img width="100" height="100" src="images/selenium.png" alt="image"/>
+        <img width="140" height="100" src="images/testNG.png" alt="image"/>
+        <img width="100" height="100" src="images/tosca.png" alt="image"/>
+    </div>
+</div>
+<hr/>
+<table class="table" border="1">
     <tr>
         <th>Движок</th>
         <th>Разработчики</th>
@@ -28,8 +93,7 @@
     </tr>
     <tr>
         <td>Gecko</td>
-        <td>Netscape/Mozilla Foundation</td>
-        <td>Mozilla Firefox</td>
+        <td colspan="2">Netscape/Mozilla Foundation</td>
     </tr>
     <tr>
         <td>EdgeHTML</td>
@@ -37,5 +101,6 @@
         <td>Microsoft Edge</td>
     </tr>
 </table>
+<span><a href="#start">На верх</a></span>
 </body>
 </html>

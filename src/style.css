@@ -1,0 +1,19 @@
+.table {
+    background: cornsilk;
+}
+
+tbody > tr:nth-child(6) > td:last-child {
+    font-style: italic;
+}
+
+body {
+    background: antiquewhite;
+}
+
+ul[type="circle"] {
+    font: bold italic 130% serif;
+}
+
+h2 + div > p.text {
+font: 120% serif;
+}
